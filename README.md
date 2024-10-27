@@ -1,3 +1,51 @@
+
+# Home Rental Management System (React App)
+The frontend is built with React and styled with Bootstrap. It provides an interface for managing the Home Rental Management System, including managing properties, owners, applications, maintenance requests, and allowing tenants to apply for properties.
+
+## Requirements
+Node.js (version 14 or higher)
+npm or yarn
+##Setup
+Navigate to the frontend folder:
+
+bash
+Copy code
+```
+cd home-rental-management/frontend
+```
+
+cd home-rental-management/frontend
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+By default, the frontend app will run on port 3000.
+
+Configure Backend URL: If the backend is running on a different port or URL, update the API base URLs in the frontend code (typically in the service or API configuration files).
+
+Features
+Available Properties: Display available properties as cards with a button to apply.
+Manage Properties: CRUD operations for managing properties in the system.
+Manage Property Owners: CRUD operations for managing property owners.
+Manage Applications: Display applications with tenant and property details.
+Manage Maintenance Requests: Track and manage maintenance requests.
+Component Structure
+PropertyCardComponent: Displays available properties in a card format, with an option to apply for a property.
+PropertyComponent: Manages property listings, including adding, editing, and deleting properties.
+PropertyOwnerComponent: Manages property owners.
+ApplicationComponent: Lists applications with tenant and property information.
+MaintenanceRequestComponent: Manages maintenance requests for properties.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
