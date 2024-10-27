@@ -4,6 +4,8 @@
 
 This React application is designed to help property owners manage rental properties and tenants efficiently. It includes features for tracking property listings, tenant applications, lease agreements, payments, maintenance requests, and tenant referrals.
 
+For more the backend NodeJS application, please refer to the [Backend NodeJS Server](https://github.com/Pranav2501/home-rental-management-system-backend).
+
 ## Features
 
 1. **Property Management**: Add, edit, and delete property listings with details such as address, type, number of rooms, and rent amount.
